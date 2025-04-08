@@ -1,0 +1,55 @@
+.dynamic-list-manager-container{
+  font-family: sans-serif;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 400px;
+  margin: 50px auto;
+}
+.dynamic-list-manager-heading {
+  color: #039562;
+  margin-bottom: 15px;
+}
+.dynamic-list-manager-input-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+.dynamic-list-manager-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px 0 0 3px;
+  font-size: 16px;
+}
+
+.dynamic-list-manager-add-button {
+  background-color: #039562;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.dynamic-list-manager-list-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  background-color: #f5fafa;
+  padding: 10px;
+  margin: 20px 0px 10px 0px;
+  width: 288px;
+  height: 200px;
+}
+
+.dynamic-list-manager-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+.dynamic-list-manager-list-item {
+  padding: 8px 0;
+  border-bottom: 1px dotted #ccc;
+  list-style-type: disc; /* Add back the bullet point */
+  margin-left: 15px;
+}
